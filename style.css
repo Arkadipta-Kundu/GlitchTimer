@@ -1,0 +1,19 @@
+#timer,footer{text-align:center}body{display:flex;align-items:center;justify-content:center;flex-direction:column;height:100vh;margin:0;background-color:#070000}#timer{font-size:20vw;color:#e7e6d6}button{margin-top:10px;font-size:1em;padding:5px 10px}footer{position:fixed;bottom:0;width:100%;color:#fff;padding:10px;font-size:.9vw}#logs-container{max-height:100px;max-width:600px;overflow:auto;margin-top:20px;padding:10px;border:1px solid #ccc;color:#f0f8ff;display:none}#smallTimer {
+            font-size: 10vw ;
+            /* Adjust the size as needed */
+            position: absolute;
+            top: 15%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+            color: #070000;
+            /* Ensure the small timer is above the main timer */
+        }
+#pb{
+    display: none;
+}
+@media only screen and (max-width:700px){
+    #pb{
+        display: block;
+    }
+}
